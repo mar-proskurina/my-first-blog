@@ -6,13 +6,12 @@
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
         <link href="https://fonts.googleapis.com/css?family=Baloo Bhaina 2&subset=latin,cyrillic" rel="stylesheet" type="text/css">
         <title>#маня_мирок</title>
-        <link = rel='icon' href="https://www.kindpng.com/picc/m/121-1214875_m-letter-png-high-quality-image-capital-letter.png">
+        <link rel='icon' href="https://www.kindpng.com/picc/m/121-1214875_m-letter-png-high-quality-image-capital-letter.png">
     </head>
     <body>
         <div class='page-header'>
             {% if user.is_authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-                https://www.kindpng.com/picc/m/121-1214875_m-letter-png-high-quality-image-capital-letter.png
             {% endif %}
                 <h1><a href="/">#маня_мирок</a></h1>
         </div>
